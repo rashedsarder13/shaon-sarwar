@@ -19,24 +19,6 @@ export const metadata: Metadata = {
   title: "Shaon Sarwar - Digital Marketing Specialist",
   description:
     "Expert in Google Ads, Facebook Ads, and SEO strategies. Drive qualified traffic and increase conversions.",
-  generator: "v0.app",
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
 }
 
 export default function RootLayout({
