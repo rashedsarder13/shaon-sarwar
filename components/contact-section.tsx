@@ -68,7 +68,9 @@ export function ContactSection() {
                     <div className="mb-4 p-3 bg-primary/10 rounded-xl w-fit mx-auto">
                       <contact.icon className="w-6 h-6 text-primary" />
                     </div>
-                    <p className="text-xs text-muted-foreground mb-2 uppercase tracking-wider">{contact.label}</p>
+                    <p className="text-xs text-muted-foreground mb-2 uppercase tracking-wider text-center">
+                      {contact.label}
+                    </p>
                     <p className="text-sm font-medium text-card-foreground text-center">{contact.value}</p>
                   </div>
                 </a>
@@ -77,7 +79,9 @@ export function ContactSection() {
                   <div className="mb-4 p-3 bg-primary/10 rounded-xl w-fit mx-auto">
                     <contact.icon className="w-6 h-6 text-primary" />
                   </div>
-                  <p className="text-xs text-muted-foreground mb-2 uppercase tracking-wider">{contact.label}</p>
+                  <p className="text-xs text-muted-foreground mb-2 uppercase tracking-wider text-center">
+                    {contact.label}
+                  </p>
                   <p className="text-sm font-medium text-card-foreground text-center">{contact.value}</p>
                 </div>
               )}
